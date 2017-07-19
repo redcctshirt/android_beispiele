@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/layout/activity_main.xml - Layout bestimmen -->
+
+<!-- Elemente werden linear untereinander oder nebeneinander angezeigt -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!-- android:layout_width="match_parent" - Größe von Eltern geerbt -->
+    <!-- android:orientation="vertical" - Vertical -->
+
+    <!-- einfache Textausgabe -->
+    <!-- id - ID - kann über R.id.hi_ausgabe angesprochen werden -->
+    <TextView
+        android:id="@+id/hi_ausgabe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" /> <!-- Inhalt bestimmt die Größe -->
+
+</LinearLayout>

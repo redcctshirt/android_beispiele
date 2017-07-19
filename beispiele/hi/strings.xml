@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- res/values/strings.xml - Texte und Zeichenketten speichern -->
+    <!-- können über R.string.name angesprochen werden -->
+    <string name="app_name">Hi Android</string>
+    <string name="hi">Hi!</string>
+</resources>
